@@ -32,9 +32,7 @@ import java.util.Locale;
 public class TripMapActivity extends AppCompatActivity {
     TextView jericoCircle, jewsCircle, MHCircle, EArrivingTimeTxt, ArrivingTimeTxt, jericoClockTxt, jewsClockTxt, MHClockTxt;
 
-    //This is Google Location Service API, this is the heart of our application.
     FusedLocationProviderClient fusedLocationProviderClient;
-    // this is configuration class that tells FusedLocationProviderClient how to work
     LocationRequest locationRequest;
 
     @Override
@@ -62,16 +60,6 @@ public class TripMapActivity extends AppCompatActivity {
         updateGPS();
 
     }
-   /* public void gps_onClick(View view) {
-        if(sw_gps.isChecked()){
-            locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-            tv_sensor.setText("Using GPS");
-        }
-        else{
-            locationRequest.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY);
-            tv_sensor.setText("Using WiFI and Towers");
-        }
-    }*/
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -89,9 +77,6 @@ public class TripMapActivity extends AppCompatActivity {
     }
 
     private void updateGPS(){
-        //get permissions from the user to track gps
-        //get current location from fused client
-        //update UI
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(TripMapActivity.this);
 
         if(ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED){
