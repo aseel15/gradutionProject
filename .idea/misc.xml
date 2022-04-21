@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/graduationProject/app/src/main/res/drawable/border.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/graduationProject/app/src/main/res/drawable/circle.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/graduationProject/app/src/main/res/drawable/circle_shape.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/graduationProject/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/graduationProject/app/src/main/res/drawable/square.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/graduationProject/app/src/main/res/drawable/visited.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/graduationProject/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/graduationProject/app/src/main/res/layout/activity_trip_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/graduationProject/app/src/main/res/layout/stations_adapter.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
